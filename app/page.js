@@ -3,6 +3,7 @@ import { FaGraduationCap } from "react-icons/fa6";
 import { BsArrowUpRight } from "react-icons/bs";
 import banner from "@/public/assets/banner.webp";
 import Link from "next/link";
+import Heading from "./components/Heading";
 export default function Home() {
     return (
         <main>
@@ -19,7 +20,7 @@ export default function Home() {
                             Elevate Student Experience <br /> With Visa
                             Consulting
                         </h1>
-                        <h2 className="text-[#516358] text-lg">
+                        <h2 className="text-ptag text-lg">
                             Maximize your student experience with Visa
                             Consulting. Seamlessly navigate the visa process,
                             unlocking the full potential of your academic
@@ -49,6 +50,17 @@ export default function Home() {
                     <div className="w-48%">
                         <Image src={banner} alt="Banner" priority />
                     </div>
+                </div>
+            </section>
+            <section className="bg-[#faf5f5] pt-14 pb-20">
+                <div className="container mx-auto px-2">
+                    <Heading
+                        firstword={"Our"}
+                        title={"Programs"}
+                        subtitle={
+                            "Unlocking the full potential of your academic journey"
+                        }
+                    />
                 </div>
             </section>
         </main>
