@@ -8,8 +8,8 @@ import { FaAngleDown } from "react-icons/fa6";
 const Navbar = () => {
     return (
         <header>
-            <nav className="shadow-md">
-                <div className="container mx-auto flex justify-between items-center py-3">
+            <nav className="shadow-md w-full fixed z-50 bg-white">
+                <div className="container mx-auto px-2 flex justify-between items-center py-3">
                     <div className="w-1/5">
                         <Image priority src={logo} alt="Logo" />
                     </div>
@@ -47,10 +47,12 @@ const Navbar = () => {
                     </div>
                     <div className="flex w-1/5 gap-x-2 justify-end">
                         <span className=" bg-[#EAECEB] flex items-center justify-center rounded-full w-12 h-12">
-                            <IoCallOutline className="text-xl" />
+                            <IoCallOutline className="text-xl text-primary" />
                         </span>
                         <div>
-                            <span className="block">Hotline 24/7</span>
+                            <span className="block text-[#ABADAC]">
+                                Hotline 24/7
+                            </span>
                             <span className="block">+8801712345678</span>
                         </div>
                     </div>
