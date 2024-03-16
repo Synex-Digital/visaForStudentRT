@@ -4,6 +4,9 @@ import { BsArrowUpRight } from "react-icons/bs";
 import banner from "@/public/assets/banner.webp";
 import Link from "next/link";
 import Heading from "./components/Heading";
+import WomanCh from "@/public/assets/Womanchecking.png";
+import ReactSlick from "./components/ReactSlick";
+
 export default function Home() {
     return (
         <main>
@@ -52,6 +55,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
             <section className="bg-[#faf5f5] pt-14 pb-20">
                 <div className="container mx-auto px-2">
                     <Heading
@@ -61,6 +65,117 @@ export default function Home() {
                             "Unlocking the full potential of your academic journey"
                         }
                     />
+                    <div className="flex justify-between mt-28">
+                        <div className="bg-primary rounded-[20px] w-[18%] px-3 py-4">
+                            <Image
+                                priority
+                                src={WomanCh}
+                                alt="Student Accommodation"
+                                className="w-full"
+                            />
+                            <h4 className="pl-2 text-white">
+                                Student Accommodation
+                            </h4>
+                            <Link
+                                href={"#"}
+                                className="text-xs pl-2 text-[#acb5b0]"
+                            >
+                                Know more
+                            </Link>
+                        </div>
+                        <div className="bg-primary rounded-[20px] w-[18%] px-3 py-4">
+                            <Image
+                                priority
+                                src={WomanCh}
+                                alt="Student Accommodation"
+                                className="w-full"
+                            />
+                            <h4 className="pl-2 text-white">
+                                Student Accommodation
+                            </h4>
+                            <Link
+                                href={"#"}
+                                className="text-xs pl-2 text-[#acb5b0]"
+                            >
+                                Know more
+                            </Link>
+                        </div>
+                        <div className="bg-primary rounded-[20px] w-[18%] px-3 py-4">
+                            <Image
+                                priority
+                                src={WomanCh}
+                                alt="Student Accommodation"
+                                className="w-full"
+                            />
+                            <h4 className="pl-2 text-white">
+                                Student Accommodation
+                            </h4>
+                            <Link
+                                href={"#"}
+                                className="text-xs pl-2 text-[#acb5b0]"
+                            >
+                                Know more
+                            </Link>
+                        </div>
+                        <div className="bg-primary rounded-[20px] w-[18%] px-3 py-4">
+                            <Image
+                                priority
+                                src={WomanCh}
+                                alt="Student Accommodation"
+                                className="w-full"
+                            />
+                            <h4 className="pl-2 text-white">
+                                Student Accommodation
+                            </h4>
+                            <Link
+                                href={"#"}
+                                className="text-xs pl-2 text-[#acb5b0]"
+                            >
+                                Know more
+                            </Link>
+                        </div>
+                        <div className="bg-primary rounded-[20px] w-[18%] px-3 py-4">
+                            <Image
+                                priority
+                                src={WomanCh}
+                                alt="Student Accommodation"
+                                className="w-full"
+                            />
+                            <h4 className="pl-2 text-white">
+                                Student Accommodation
+                            </h4>
+                            <Link
+                                href={"#"}
+                                className="text-xs pl-2 text-[#acb5b0]"
+                            >
+                                Know more
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="pt-20 pb-14">
+                <Heading
+                    firstword={"STUDY"}
+                    title={"ABROAD WITH VISA"}
+                    subtitle={
+                        "Explore the best study destination in the world! Learn all about the countries top universities, scholarships, cost of living, post study work rights and more"
+                    }
+                />
+                <div>
+                    <ReactSlick />
+                </div>
+                <div className="flex justify-center mt-14">
+                    <Link
+                        href={"#"}
+                        className="bg-primary text-white text-lg font-medium px-7 py-3 rounded-xl flex items-center gap-x-2"
+                    >
+                        Explore More{" "}
+                        <span>
+                            <BsArrowUpRight />
+                        </span>
+                    </Link>
                 </div>
             </section>
         </main>
