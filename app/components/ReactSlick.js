@@ -4,14 +4,18 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import SampleNextArrow from "./SampleNextArrow";
+import SamplePrevArrow from "./SamplePrevArrow";
 
 const ReactSlick = ({ children, className }) => {
     let settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        swipeToSlide: true,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
     };
     return (
         <Slider {...settings} className={className}>

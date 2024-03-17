@@ -168,17 +168,17 @@ export default function Home() {
                             "Explore the best study destination in the world! Learn all about the countries top universities, scholarships, cost of living, post study work rights and more"
                         }
                     />
-                    <div className="">
+                    <div className="mt-32 ">
                         <ReactSlick className="w-full h-full ">
-                            <div className="relative">
+                            <div className="relative !w-[96%]">
                                 <Image
-                                    id="showbg"
                                     src={study}
                                     alt="STUDY ABROAD WITH VISA"
                                     priority
-                                    className=" w-full p-5 absolute"
+                                    className=" w-full rounded-[20px]"
                                 />
-                                <div className="absolute">
+                                <div className=" absolute w-full h-1/5 rounded-[20px] bottom-0 left-0 bg-gradient-to-b from-transparent to-black"></div>
+                                <div className="absolute bottom-5 left-4 z-50 text-white">
                                     <p className="text-xl font-medium">
                                         Study in Australia
                                     </p>
@@ -190,60 +190,84 @@ export default function Home() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="">
-                                <div className=" rounded-xl xl:p-7 lg:p-6 md:p-5 p-4 bg-[#c0dbe2]">
-                                    <h2 className="text-center text-3xl font-semibold">
-                                        Website Development
-                                    </h2>
-                                    <h3 className="text-justify mt-5 font-medium">
-                                        Synex Digital develops dynamic websites
-                                        with React on the front end and
-                                        PHP-Laravel on the back end. Strengthen
-                                        your digital identity with our creative
-                                        web...
-                                    </h3>
+                            <div className="relative !w-[96%]">
+                                <Image
+                                    src={study}
+                                    alt="STUDY ABROAD WITH VISA"
+                                    priority
+                                    className=" w-full rounded-[20px]"
+                                />
+                                <div className=" absolute w-full h-1/5 rounded-[20px] bottom-0 left-0 bg-gradient-to-b from-transparent to-black"></div>
+                                <div className="absolute bottom-5 left-4 z-50 text-white">
+                                    <p className="text-xl font-medium">
+                                        Study in Australia
+                                    </p>
+                                    <p className="flex items-center gap-x-1 text-xs">
+                                        <span>
+                                            <IoLocationOutline />
+                                        </span>{" "}
+                                        Sydney, Australia
+                                    </p>
                                 </div>
                             </div>
-                            <div className="">
-                                <div className=" rounded-xl xl:p-7 lg:p-6 md:p-5 p-4 bg-[#c0dbe2]">
-                                    <h2 className="text-center text-3xl font-semibold">
-                                        Website Development
-                                    </h2>
-                                    <h3 className="text-justify mt-5 font-medium">
-                                        Synex Digital develops dynamic websites
-                                        with React on the front end and
-                                        PHP-Laravel on the back end. Strengthen
-                                        your digital identity with our creative
-                                        web...
-                                    </h3>
+                            <div className="relative !w-[96%]">
+                                <Image
+                                    src={study}
+                                    alt="STUDY ABROAD WITH VISA"
+                                    priority
+                                    className=" w-full rounded-[20px]"
+                                />
+                                <div className=" absolute w-full h-1/5 rounded-[20px] bottom-0 left-0 bg-gradient-to-b from-transparent to-black"></div>
+                                <div className="absolute bottom-5 left-4 z-50 text-white">
+                                    <p className="text-xl font-medium">
+                                        Study in Australia
+                                    </p>
+                                    <p className="flex items-center gap-x-1 text-xs">
+                                        <span>
+                                            <IoLocationOutline />
+                                        </span>{" "}
+                                        Sydney, Australia
+                                    </p>
                                 </div>
                             </div>
-                            <div className="">
-                                <div className=" rounded-xl xl:p-7 lg:p-6 md:p-5 p-4 bg-[#c0dbe2]">
-                                    <h2 className="text-center text-3xl font-semibold">
-                                        Website Development
-                                    </h2>
-                                    <h3 className="text-justify mt-5 font-medium">
-                                        Synex Digital develops dynamic websites
-                                        with React on the front end and
-                                        PHP-Laravel on the back end. Strengthen
-                                        your digital identity with our creative
-                                        web...
-                                    </h3>
+                            <div className="relative !w-[96%]">
+                                <Image
+                                    src={study}
+                                    alt="STUDY ABROAD WITH VISA"
+                                    priority
+                                    className=" w-full rounded-[20px]"
+                                />
+                                <div className=" absolute w-full h-1/5 rounded-[20px] bottom-0 left-0 bg-gradient-to-b from-transparent to-black"></div>
+                                <div className="absolute bottom-5 left-4 z-50 text-white">
+                                    <p className="text-xl font-medium">
+                                        Study in Australia
+                                    </p>
+                                    <p className="flex items-center gap-x-1 text-xs">
+                                        <span>
+                                            <IoLocationOutline />
+                                        </span>{" "}
+                                        Sydney, Australia
+                                    </p>
                                 </div>
                             </div>
-                            <div className="">
-                                <div className=" rounded-xl xl:p-7 lg:p-6 md:p-5 p-4 bg-[#c0dbe2]">
-                                    <h2 className="text-center text-3xl font-semibold">
-                                        Website Development
-                                    </h2>
-                                    <h3 className="text-justify mt-5 font-medium">
-                                        Synex Digital develops dynamic websites
-                                        with React on the front end and
-                                        PHP-Laravel on the back end. Strengthen
-                                        your digital identity with our creative
-                                        web...
-                                    </h3>
+                            <div className="relative !w-[96%]">
+                                <Image
+                                    src={study}
+                                    alt="STUDY ABROAD WITH VISA"
+                                    priority
+                                    className=" w-full rounded-[20px]"
+                                />
+                                <div className=" absolute w-full h-1/5 rounded-[20px] bottom-0 left-0 bg-gradient-to-b from-transparent to-black"></div>
+                                <div className="absolute bottom-5 left-4 z-50 text-white">
+                                    <p className="text-xl font-medium">
+                                        Study in Australia
+                                    </p>
+                                    <p className="flex items-center gap-x-1 text-xs">
+                                        <span>
+                                            <IoLocationOutline />
+                                        </span>{" "}
+                                        Sydney, Australia
+                                    </p>
                                 </div>
                             </div>
                         </ReactSlick>
@@ -277,7 +301,7 @@ export default function Home() {
                                 src={experience}
                                 alt="STUDY ABROAD WITH VISA"
                                 priority
-                                className="rounded-[20px] shadow-lg"
+                                className="rounded-[20px] shadow-lg w-full"
                             />
                         </div>
                         <div className="w-7/12 flex flex-wrap gap-5">
