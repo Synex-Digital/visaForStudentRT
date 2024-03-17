@@ -163,8 +163,15 @@ export default function Home() {
                         "Explore the best study destination in the world! Learn all about the countries top universities, scholarships, cost of living, post study work rights and more"
                     }
                 />
-                <div>
-                    <ReactSlick />
+                <div className="flex justify-between">
+                    <ReactSlick className={" w-full h-full"}>
+                        <div>One</div>
+                        <div>One</div>
+                        <div>One</div>
+                        <div>One</div>
+                        <div>One</div>
+                        <div>One</div>
+                    </ReactSlick>
                 </div>
                 <div className="flex justify-center mt-14">
                     <Link
