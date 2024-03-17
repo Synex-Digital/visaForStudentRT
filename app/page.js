@@ -9,6 +9,7 @@ import Heading from "./components/Heading";
 import WomanCh from "@/public/assets/Womanchecking.png";
 import ReactSlick from "./components/ReactSlick";
 import { IoLocationOutline } from "react-icons/io5";
+import FaqSection from "./components/FaqSection";
 
 export default function Home() {
     return (
@@ -394,7 +395,28 @@ export default function Home() {
                 </div>
             </section>
 
-            <section></section>
+            <section>
+                <div className="container mx-auto px-2 mb-9">
+                    <Heading
+                        firstword={"FREQUENTLY"}
+                        title={"ASKED QUESTIONS"}
+                        subtitle={
+                            "Explore the best study destination in the world! Learn all about the countries top universities, scholarships, cost of living, post study work rights and more"
+                        }
+                    />
+                    <div className="bg-primary text-white rounded-[20px] py-7 px-9 mt-28">
+                        <h4 className="text-2xl">What is a student visa?</h4>
+                        <p className="py-3 px-5 bg-[#476354] rounded-[20px] mt-5">
+                            A student visa is a legal authorization granted by a
+                            foreign country, such as USA, to allow the
+                            international students to study within the borders.
+                            It is a crucial document that permits entry for the
+                            purpose of education.
+                        </p>
+                    </div>
+                </div>
+                <FaqSection />
+            </section>
 
             <section className=" py-32">
                 <div className="container mx-auto px-2 py-16 bg-primary rounded-[20px]">

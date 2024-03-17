@@ -8,7 +8,7 @@ import { FaAngleDown } from "react-icons/fa6";
 const Navbar = () => {
     return (
         <header>
-            <nav className="shadow-md w-full fixed z-50 bg-white">
+            <nav className="shadow-md w-full fixed z-50 bg-[#fff9f9]">
                 <div className="container mx-auto px-2 flex justify-between items-center py-3">
                     <div className="w-1/5">
                         <Image priority src={logo} alt="Logo" />

@@ -8,6 +8,10 @@
     }
 }
 
+body{
+    background-color: #fff9f9;
+}
+
 #showbg {
     background-image: linear-gradient(
         to bottom,
